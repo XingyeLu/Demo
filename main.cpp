@@ -32,13 +32,9 @@ void  drawScene() {
     glTranslatef(0.0f  ,0.0f  ,-5.0f  );
     //绘制一个正方形
     glBegin(GL_QUADS);
-    glColor3f(1.0f,0.0f,0.0f);
     glVertex3f(-1.0f  , -1.0f  ,  1.0f  );
-    glColor3f(0.0f,1.0f,0.0f);
     glVertex3f( 1.0f  , -1.0f  ,  1.0f  );
-    glColor3f(0.0f,0.0f,1.0f);
     glVertex3f( 1.0f  ,  1.0f  ,  1.0f  );
-    glColor3f(1.0f,1.0f,0.0f);
     glVertex3f(-1.0f  ,  1.0f  ,  1.0f  );
     glEnd();
     // 交换缓冲区
